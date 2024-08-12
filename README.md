@@ -1,3 +1,6 @@
+# For Backend
+Run `python backend/main.py` to start the backend server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
