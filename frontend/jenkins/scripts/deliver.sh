@@ -2,7 +2,7 @@
 
 npm run build
 
-uvicorn main:app --reload &
+venv/bin/python3 backend/main.py &
 npm start &
 sleep 1
 echo $! > .pidfile
