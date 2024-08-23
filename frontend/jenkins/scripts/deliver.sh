@@ -2,6 +2,7 @@
 
 npm run build
 
+uvicorn main:app --reload &
 npm start &
 sleep 1
 echo $! > .pidfile
