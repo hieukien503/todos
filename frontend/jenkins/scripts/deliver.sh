@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-yarn --prefix ./frontend/ run start &
+npm --prefix ./frontend/ run start &
 venv/bin/python3 backend/main.py &
 sleep 1
 echo $! > .pidfile
