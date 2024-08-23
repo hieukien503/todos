@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
-npm run build
+npm --prefix ./frontend/ run build
 
 venv/bin/python3 backend/main.py &
-npm start &
+npm --prefix ./frontend/ start &
 sleep 1
 echo $! > .pidfile
 
